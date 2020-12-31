@@ -8,6 +8,7 @@ import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
 import org.springframework.scheduling.quartz.SpringBeanJobFactory;
 import org.springframework.util.Assert;
@@ -29,7 +30,7 @@ public class SchedulerConfiguration {
         protected Object createJobInstance(TriggerFiredBundle bundle) throws Exception {
             Object jobInstance = super.createJobInstance(bundle);
             this.beanFactory.autowireBean(jobInstance);
-            this.beanFactory.initializeBean(jobInstance, "Beans make ya fart");
+           // this.beanFactory.initializeBean(jobInstance);
             return jobInstance;
         }
     }
@@ -38,6 +39,8 @@ public class SchedulerConfiguration {
     public SchedulerFactoryBean schedulerFactory(ApplicationContext applicationContext) {
         SchedulerFactoryBean schedulerFactoryBean = new SchedulerFactoryBean();
         schedulerFactoryBean.setJobFactory(new AutowireCapableBeanJobFactory(applicationContext.getAutowireCapableBeanFactory()));
+        schedulerFactoryBean.setConfigLocation(new ClassPathResource("application.properties"));
+        System.out.println(new ClassPathResource("application.properties").getFilename());
         return schedulerFactoryBean;
     }
 
