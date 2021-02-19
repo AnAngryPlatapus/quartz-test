@@ -1,15 +1,15 @@
-2021-01-13 23:36:05.465  INFO 17728 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 17728 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
-2021-01-13 23:36:05.472 DEBUG 17728 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
-2021-01-13 23:36:05.473  INFO 17728 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
-2021-01-13 23:36:05.522  INFO 17728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-01-13 23:36:05.522  INFO 17728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-01-13 23:36:06.438  INFO 17728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
-2021-01-13 23:36:06.463  INFO 17728 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 Reactive MongoDB repository interfaces.
-2021-01-13 23:36:06.848  INFO 17728 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2021-01-13 23:36:06.860  INFO 17728 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2021-01-13 23:36:06.860  INFO 17728 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
-2021-01-13 23:36:06.861  INFO 17728 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2021-01-13 23:36:06.862  INFO 17728 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+2021-02-07 15:46:36.079  INFO 25868 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 25868 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 15:46:36.087 DEBUG 25868 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 15:46:36.088  INFO 25868 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 15:46:36.199  INFO 25868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-07 15:46:36.199  INFO 25868 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-07 15:46:37.242  INFO 25868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 15:46:37.263  INFO 25868 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 15:46:37.584  INFO 25868 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 15:46:37.594  INFO 25868 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 15:46:37.594  INFO 25868 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 15:46:37.595  INFO 25868 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 15:46:37.595  INFO 25868 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -17,32 +17,33 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2021-01-13 23:36:06.863  INFO 17728 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
-2021-01-13 23:36:06.863  INFO 17728 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
-2021-01-13 23:36:06.863  INFO 17728 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@3d69594d
-2021-01-13 23:36:06.883  INFO 17728 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
-2021-01-13 23:36:06.923  INFO 17728 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
-2021-01-13 23:36:07.148 ERROR 17728 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
-2021-01-13 23:36:07.635  INFO 17728 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-2021-01-13 23:36:07.984  INFO 17728 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
-2021-01-13 23:36:08.235  WARN 17728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2021-01-13 23:36:08.325  INFO 17728 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
-2021-01-13 23:36:08.347  INFO 17728 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 3.284 seconds (JVM running for 5.739)
-2021-01-13 23:36:08.401  INFO 17728 --- [cluster-ClusterId{value='5fffca37262cf226eba4d37e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:16}] to localhost:27017
-2021-01-13 23:36:08.411  INFO 17728 --- [cluster-ClusterId{value='5fffca37262cf226eba4d37e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5553000}
-2021-01-13 23:36:09.030  INFO 17728 --- [nioEventLoopGroup-3-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:17}] to localhost:27017
-2021-01-13 23:40:40.158  INFO 19172 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 19172 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
-2021-01-13 23:40:40.162 DEBUG 19172 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
-2021-01-13 23:40:40.162  INFO 19172 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
-2021-01-13 23:40:40.228  INFO 19172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-01-13 23:40:40.228  INFO 19172 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-01-13 23:40:40.958  INFO 19172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
-2021-01-13 23:40:40.978  INFO 19172 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Reactive MongoDB repository interfaces.
-2021-01-13 23:40:41.293  INFO 19172 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
-2021-01-13 23:40:41.303  INFO 19172 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2021-01-13 23:40:41.303  INFO 19172 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
-2021-01-13 23:40:41.304  INFO 19172 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
-2021-01-13 23:40:41.305  INFO 19172 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+2021-02-07 15:46:37.596  INFO 25868 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 15:46:37.596  INFO 25868 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 15:46:37.596  INFO 25868 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@4c04e754
+2021-02-07 15:46:37.614  INFO 25868 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 15:46:37.648  INFO 25868 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 15:46:39.778 ERROR 25868 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : registerApp: I/O error on POST request for "http://localhost:8080/heartbeat/app/init": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-02-07 15:46:39.779 ERROR 25868 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 15:46:40.185  INFO 25868 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 15:46:40.630  INFO 25868 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 15:46:40.889  WARN 25868 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-02-07 15:46:40.930  INFO 25868 --- [cluster-ClusterId{value='602051b049ad644002322e91', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:28}] to localhost:27017
+2021-02-07 15:46:40.937  INFO 25868 --- [cluster-ClusterId{value='602051b049ad644002322e91', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3945000}
+2021-02-07 15:46:40.954  INFO 25868 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 15:46:40.971  INFO 25868 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 5.331 seconds (JVM running for 6.909)
+2021-02-07 15:46:41.525  INFO 25868 --- [nioEventLoopGroup-3-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:29}] to localhost:27017
+2021-02-07 16:12:41.553  INFO 42348 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 42348 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 16:12:41.555 DEBUG 42348 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 16:12:41.556  INFO 42348 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 16:12:41.626  INFO 42348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-07 16:12:41.627  INFO 42348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-07 16:12:42.873  INFO 42348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 16:12:42.895  INFO 42348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 16:12:43.217  INFO 42348 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 16:12:43.229  INFO 42348 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 16:12:43.229  INFO 42348 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 16:12:43.230  INFO 42348 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 16:12:43.230  INFO 42348 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -50,16 +51,401 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2021-01-13 23:40:41.305  INFO 19172 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
-2021-01-13 23:40:41.305  INFO 19172 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
-2021-01-13 23:40:41.305  INFO 19172 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@3fda910c
-2021-01-13 23:40:41.324  INFO 19172 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
-2021-01-13 23:40:41.356  INFO 19172 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
-2021-01-13 23:40:41.985  INFO 19172 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
-2021-01-13 23:40:42.312  INFO 19172 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
-2021-01-13 23:40:42.493  WARN 19172 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2021-01-13 23:40:42.547  INFO 19172 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
-2021-01-13 23:40:42.565  INFO 19172 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 2.708 seconds (JVM running for 4.076)
-2021-01-13 23:40:42.607  INFO 19172 --- [cluster-ClusterId{value='5fffcb49379c600256014414', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:18}] to localhost:27017
-2021-01-13 23:40:42.613  INFO 19172 --- [cluster-ClusterId{value='5fffcb49379c600256014414', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3315400}
-2021-01-13 23:40:43.669  INFO 19172 --- [nioEventLoopGroup-3-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:19}] to localhost:27017
+2021-02-07 16:12:43.231  INFO 42348 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 16:12:43.231  INFO 42348 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 16:12:43.231  INFO 42348 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@5a9701ba
+2021-02-07 16:12:43.250  INFO 42348 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 16:12:43.284  INFO 42348 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 16:12:43.493 ERROR 42348 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 16:12:43.804  INFO 42348 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 16:12:44.100  INFO 42348 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 16:12:44.346  WARN 42348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-02-07 16:12:44.413  INFO 42348 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 16:12:44.431  INFO 42348 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 3.31 seconds (JVM running for 5.083)
+2021-02-07 16:12:44.447  INFO 42348 --- [cluster-ClusterId{value='602057cbc7ee6d5fc5a8ffce', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:30}] to localhost:27017
+2021-02-07 16:12:44.454  INFO 42348 --- [cluster-ClusterId{value='602057cbc7ee6d5fc5a8ffce', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3897300}
+2021-02-07 16:12:45.191  INFO 42348 --- [nioEventLoopGroup-3-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:31}] to localhost:27017
+2021-02-07 16:13:24.073  INFO 42348 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+2021-02-07 16:13:24.088  INFO 42348 --- [Thread-2] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:31}] to localhost:27017 because the pool has been closed.
+2021-02-07 16:13:26.195  INFO 42348 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED shutting down.
+2021-02-07 16:13:26.195  INFO 42348 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+2021-02-07 16:13:26.196  INFO 42348 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED shutdown complete.
+2021-02-07 16:13:26.196  INFO 42348 --- [Thread-2] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-02-07 16:13:28.386  INFO 42348 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 42348 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 16:13:28.386 DEBUG 42348 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 16:13:28.387  INFO 42348 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 16:13:28.932  INFO 42348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 16:13:28.939  INFO 42348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 16:13:29.013  INFO 42348 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 16:13:29.015  INFO 42348 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 16:13:29.015  INFO 42348 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 16:13:29.015  INFO 42348 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 16:13:29.015  INFO 42348 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-02-07 16:13:29.015  INFO 42348 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 16:13:29.015  INFO 42348 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 16:13:29.015  INFO 42348 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@24a8abf1
+2021-02-07 16:13:29.015  INFO 42348 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 16:13:29.024  INFO 42348 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 16:13:31.056 ERROR 42348 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : registerApp: I/O error on POST request for "http://localhost:8080/heartbeat/app/init": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-02-07 16:13:31.056 ERROR 42348 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 16:13:31.144  INFO 42348 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 16:13:31.150  INFO 42348 --- [cluster-ClusterId{value='602057fbc7ee6d5fc5a8ffcf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:32}] to localhost:27017
+2021-02-07 16:13:31.154  INFO 42348 --- [cluster-ClusterId{value='602057fbc7ee6d5fc5a8ffcf', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1154600}
+2021-02-07 16:13:31.191  INFO 42348 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 16:13:31.274  WARN 42348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-02-07 16:13:31.290  INFO 42348 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 16:13:31.298  INFO 42348 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 2.977 seconds (JVM running for 51.95)
+2021-02-07 16:13:31.300  INFO 42348 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-07 16:14:32.834  INFO 21048 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 21048 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 16:14:32.839 DEBUG 21048 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 16:14:32.840  INFO 21048 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 16:14:32.917  INFO 21048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-07 16:14:32.918  INFO 21048 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-07 16:14:34.050  INFO 21048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 16:14:34.073  INFO 21048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 16:14:34.431  INFO 21048 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 16:14:34.442  INFO 21048 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 16:14:34.442  INFO 21048 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 16:14:34.443  INFO 21048 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 16:14:34.444  INFO 21048 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-02-07 16:14:34.444  INFO 21048 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 16:14:34.444  INFO 21048 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 16:14:34.445  INFO 21048 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@5e88db0d
+2021-02-07 16:14:34.467  INFO 21048 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 16:14:34.505  INFO 21048 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 16:14:34.624 ERROR 21048 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 16:14:35.020  INFO 21048 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 16:14:35.417  INFO 21048 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 16:14:35.665  WARN 21048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-02-07 16:14:35.731  INFO 21048 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 16:14:35.751  INFO 21048 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 3.343 seconds (JVM running for 5.135)
+2021-02-07 16:14:35.764  INFO 21048 --- [cluster-ClusterId{value='6020583baadf1619f6e605ed', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:33}] to localhost:27017
+2021-02-07 16:14:35.773  INFO 21048 --- [cluster-ClusterId{value='6020583baadf1619f6e605ed', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=5152400}
+2021-02-07 16:14:36.389  INFO 21048 --- [nioEventLoopGroup-3-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:34}] to localhost:27017
+2021-02-07 16:15:01.231  INFO 21048 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+2021-02-07 16:15:01.254  INFO 21048 --- [Thread-2] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:34}] to localhost:27017 because the pool has been closed.
+2021-02-07 16:15:03.309  INFO 21048 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED shutting down.
+2021-02-07 16:15:03.310  INFO 21048 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+2021-02-07 16:15:03.311  INFO 21048 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED shutdown complete.
+2021-02-07 16:15:03.312  INFO 21048 --- [Thread-2] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-02-07 16:15:05.555  INFO 21048 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 21048 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 16:15:05.555 DEBUG 21048 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 16:15:05.556  INFO 21048 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 16:15:05.915  INFO 21048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 16:15:05.921  INFO 21048 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 16:15:05.981  INFO 21048 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 16:15:05.982  INFO 21048 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 16:15:05.982  INFO 21048 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 16:15:05.982  INFO 21048 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 16:15:05.982  INFO 21048 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-02-07 16:15:05.982  INFO 21048 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 16:15:05.982  INFO 21048 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 16:15:05.982  INFO 21048 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@19d857ad
+2021-02-07 16:15:05.982  INFO 21048 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 16:15:05.990  INFO 21048 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 16:15:08.024 ERROR 21048 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : registerApp: I/O error on POST request for "http://localhost:8080/heartbeat/app/init": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-02-07 16:15:08.025 ERROR 21048 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 16:15:08.096  INFO 21048 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 16:15:08.102  INFO 21048 --- [cluster-ClusterId{value='6020585caadf1619f6e605ee', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:35}] to localhost:27017
+2021-02-07 16:15:08.105  INFO 21048 --- [cluster-ClusterId{value='6020585caadf1619f6e605ee', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1058400}
+2021-02-07 16:15:08.137  INFO 21048 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 16:15:08.206  WARN 21048 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-02-07 16:15:08.219  INFO 21048 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 16:15:08.226  INFO 21048 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 2.735 seconds (JVM running for 37.609)
+2021-02-07 16:15:08.227  INFO 21048 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-07 16:16:05.880  INFO 36512 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 36512 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 16:16:05.884 DEBUG 36512 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 16:16:05.884  INFO 36512 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 16:16:05.963  INFO 36512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-07 16:16:05.964  INFO 36512 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-07 16:16:07.232  INFO 36512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 16:16:07.257  INFO 36512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 16:16:07.587  INFO 36512 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 16:16:07.597  INFO 36512 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 16:16:07.598  INFO 36512 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 16:16:07.598  INFO 36512 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 16:16:07.599  INFO 36512 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-02-07 16:16:07.599  INFO 36512 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 16:16:07.600  INFO 36512 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 16:16:07.600  INFO 36512 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@4b3d269d
+2021-02-07 16:16:07.626  INFO 36512 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 16:16:07.661  INFO 36512 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 16:16:07.750 ERROR 36512 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 16:16:08.117  INFO 36512 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 16:16:08.529  INFO 36512 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 16:16:08.876  WARN 36512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-02-07 16:16:08.942  INFO 36512 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 16:16:08.963  INFO 36512 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 3.591 seconds (JVM running for 5.857)
+2021-02-07 16:16:08.974  INFO 36512 --- [cluster-ClusterId{value='602058984b495f2822818cd1', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:36}] to localhost:27017
+2021-02-07 16:16:08.981  INFO 36512 --- [cluster-ClusterId{value='602058984b495f2822818cd1', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3993800}
+2021-02-07 16:16:10.046  INFO 36512 --- [nioEventLoopGroup-3-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:37}] to localhost:27017
+2021-02-07 16:23:08.537  INFO 36512 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+2021-02-07 16:23:08.550  INFO 36512 --- [Thread-2] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:37}] to localhost:27017 because the pool has been closed.
+2021-02-07 16:23:10.658  INFO 36512 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED shutting down.
+2021-02-07 16:23:10.659  INFO 36512 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+2021-02-07 16:23:10.660  INFO 36512 --- [Thread-2] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED shutdown complete.
+2021-02-07 16:23:10.660  INFO 36512 --- [Thread-2] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-02-07 16:23:13.232  INFO 36512 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 36512 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 16:23:13.233 DEBUG 36512 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 16:23:13.233  INFO 36512 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 16:23:14.379  INFO 36512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 16:23:14.419  INFO 36512 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 16:23:14.581  INFO 36512 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 16:23:14.583  INFO 36512 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 16:23:14.583  INFO 36512 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 16:23:14.584  INFO 36512 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 16:23:14.584  INFO 36512 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-02-07 16:23:14.584  INFO 36512 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 16:23:14.584  INFO 36512 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 16:23:14.584  INFO 36512 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@65fc9c99
+2021-02-07 16:23:14.584  INFO 36512 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 16:23:14.600  INFO 36512 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 16:23:16.623 ERROR 36512 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : registerApp: I/O error on POST request for "http://localhost:8080/heartbeat/app/init": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-02-07 16:23:16.623 ERROR 36512 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 16:23:16.727  INFO 36512 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 16:23:16.733  INFO 36512 --- [cluster-ClusterId{value='60205a444b495f2822818cd2', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:38}] to localhost:27017
+2021-02-07 16:23:16.736  INFO 36512 --- [cluster-ClusterId{value='60205a444b495f2822818cd2', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=802300}
+2021-02-07 16:23:16.782  INFO 36512 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 16:23:16.854  WARN 36512 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-02-07 16:23:16.870  INFO 36512 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 16:23:16.877  INFO 36512 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 3.944 seconds (JVM running for 433.77)
+2021-02-07 16:23:16.879  INFO 36512 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-07 16:25:50.788  INFO 14720 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 14720 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 16:25:50.790 DEBUG 14720 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 16:25:50.791  INFO 14720 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 16:25:50.832  INFO 14720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-07 16:25:50.832  INFO 14720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-07 16:25:51.816  INFO 14720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 16:25:51.843  INFO 14720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 16:25:52.301  INFO 14720 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 16:25:52.314  INFO 14720 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 16:25:52.314  INFO 14720 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 16:25:52.315  INFO 14720 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 16:25:52.316  INFO 14720 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-02-07 16:25:52.316  INFO 14720 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 16:25:52.316  INFO 14720 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 16:25:52.316  INFO 14720 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@34ed4b08
+2021-02-07 16:25:52.336  INFO 14720 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 16:25:52.371  INFO 14720 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 16:25:52.610 ERROR 14720 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 16:25:53.047  INFO 14720 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 16:25:53.419  INFO 14720 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 16:25:53.654  WARN 14720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-02-07 16:25:53.724  INFO 14720 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 16:25:53.746  INFO 14720 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 3.311 seconds (JVM running for 5.392)
+2021-02-07 16:25:53.754  INFO 14720 --- [cluster-ClusterId{value='60205ae11e5a815dbf1cf403', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:39}] to localhost:27017
+2021-02-07 16:25:53.762  INFO 14720 --- [cluster-ClusterId{value='60205ae11e5a815dbf1cf403', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4133000}
+2021-02-07 16:25:54.522  INFO 14720 --- [nioEventLoopGroup-3-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:40}] to localhost:27017
+2021-02-07 16:35:28.921  INFO 18300 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 18300 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 16:35:28.924 DEBUG 18300 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 16:35:28.925  INFO 18300 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 16:35:28.966  INFO 18300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-07 16:35:28.966  INFO 18300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-07 16:35:29.782  INFO 18300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 16:35:29.802  INFO 18300 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 16:35:30.117  INFO 18300 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 16:35:30.127  INFO 18300 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 16:35:30.127  INFO 18300 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 16:35:30.128  INFO 18300 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 16:35:30.128  INFO 18300 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-02-07 16:35:30.129  INFO 18300 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 16:35:30.129  INFO 18300 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 16:35:30.129  INFO 18300 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@51fd1972
+2021-02-07 16:35:30.148  INFO 18300 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 16:35:30.194  INFO 18300 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 16:35:30.284 ERROR 18300 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 16:35:30.612  INFO 18300 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 16:35:30.972  INFO 18300 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 16:35:31.261  WARN 18300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-02-07 16:35:31.327  INFO 18300 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 16:35:31.351  INFO 18300 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 2.872 seconds (JVM running for 5.057)
+2021-02-07 16:35:31.376  INFO 18300 --- [cluster-ClusterId{value='60205d2208311464d7b7d88b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:41}] to localhost:27017
+2021-02-07 16:35:31.387  INFO 18300 --- [cluster-ClusterId{value='60205d2208311464d7b7d88b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9082300}
+2021-02-07 16:35:32.404  INFO 18300 --- [nioEventLoopGroup-3-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:42}] to localhost:27017
+2021-02-07 16:35:55.635  INFO 15508 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 15508 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 16:35:55.640 DEBUG 15508 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 16:35:55.640  INFO 15508 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 16:35:55.706  INFO 15508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-07 16:35:55.707  INFO 15508 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-07 16:35:57.115  INFO 15508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 16:35:57.159  INFO 15508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 16:35:57.803  INFO 15508 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 16:35:57.820  INFO 15508 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 16:35:57.820  INFO 15508 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 16:35:57.822  INFO 15508 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 16:35:57.823  INFO 15508 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-02-07 16:35:57.823  INFO 15508 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 16:35:57.824  INFO 15508 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 16:35:57.824  INFO 15508 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@faadcc7
+2021-02-07 16:35:57.870  INFO 15508 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 16:35:57.926  INFO 15508 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 16:36:00.148 ERROR 15508 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : registerApp: I/O error on POST request for "http://localhost:8080/heartbeat/app/init": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-02-07 16:36:00.149 ERROR 15508 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 16:36:00.827  INFO 15508 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 16:36:01.460  INFO 15508 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 16:36:01.876  INFO 15508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-07 16:36:01.996  INFO 15508 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 16:36:01.997  INFO 15508 --- [cluster-ClusterId{value='60205d40bfb4324caa955c7c', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:43}] to localhost:27017
+2021-02-07 16:36:02.011  INFO 15508 --- [cluster-ClusterId{value='60205d40bfb4324caa955c7c', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8470200}
+2021-02-07 16:36:02.024  INFO 15508 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 7.036 seconds (JVM running for 9.1)
+2021-02-07 16:36:03.424  INFO 15508 --- [nioEventLoopGroup-3-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:44}] to localhost:27017
+2021-02-07 17:00:36.444  INFO 15508 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+2021-02-07 17:00:36.457  INFO 15508 --- [Thread-7] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:2, serverValue:44}] to localhost:27017 because the pool has been closed.
+2021-02-07 17:00:38.475  INFO 15508 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED shutting down.
+2021-02-07 17:00:38.475  INFO 15508 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+2021-02-07 17:00:38.476  INFO 15508 --- [Thread-7] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED shutdown complete.
+2021-02-07 17:00:38.477  INFO 15508 --- [Thread-7] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2021-02-07 17:00:40.813  INFO 15508 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 15508 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 17:00:40.814 DEBUG 15508 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 17:00:40.814  INFO 15508 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 17:00:41.420  INFO 15508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 17:00:41.433  INFO 15508 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 17:00:41.553  INFO 15508 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 17:00:41.554  INFO 15508 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 17:00:41.555  INFO 15508 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 17:00:41.555  INFO 15508 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 17:00:41.555  INFO 15508 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-02-07 17:00:41.555  INFO 15508 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 17:00:41.555  INFO 15508 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 17:00:41.555  INFO 15508 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@24f2ce8d
+2021-02-07 17:00:41.556  INFO 15508 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 17:00:41.570  INFO 15508 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 17:00:43.602 ERROR 15508 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : registerApp: I/O error on POST request for "http://localhost:8080/heartbeat/app/init": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2021-02-07 17:00:43.603 ERROR 15508 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 17:00:43.783  INFO 15508 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 17:00:43.796  INFO 15508 --- [cluster-ClusterId{value='6020630bbfb4324caa955c7d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:45}] to localhost:27017
+2021-02-07 17:00:43.803  INFO 15508 --- [cluster-ClusterId{value='6020630bbfb4324caa955c7d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2432300}
+2021-02-07 17:00:43.943  INFO 15508 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 17:00:44.076  INFO 15508 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-07 17:00:44.101  INFO 15508 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 17:00:44.109  INFO 15508 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 3.416 seconds (JVM running for 1492.545)
+2021-02-07 17:00:44.111  INFO 15508 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-02-07 17:02:23.693  INFO 31940 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 31940 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 17:02:23.697 DEBUG 31940 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 17:02:23.697  INFO 31940 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 17:02:23.770  INFO 31940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-07 17:02:23.771  INFO 31940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-07 17:02:24.931  INFO 31940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 17:02:24.952  INFO 31940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 17:02:25.286  INFO 31940 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 17:02:25.297  INFO 31940 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 17:02:25.297  INFO 31940 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 17:02:25.298  INFO 31940 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 17:02:25.299  INFO 31940 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-02-07 17:02:25.299  INFO 31940 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 17:02:25.299  INFO 31940 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 17:02:25.299  INFO 31940 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@5479428e
+2021-02-07 17:02:25.319  INFO 31940 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 17:02:25.354  INFO 31940 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 17:02:25.553 ERROR 31940 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 17:02:25.890  INFO 31940 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 17:02:26.232  INFO 31940 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 17:02:26.496  WARN 31940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-02-07 17:02:26.558  INFO 31940 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 17:02:26.576  INFO 31940 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 3.316 seconds (JVM running for 4.994)
+2021-02-07 17:02:26.582  INFO 31940 --- [cluster-ClusterId{value='6020637101f19a190254a4b9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:46}] to localhost:27017
+2021-02-07 17:02:26.589  INFO 31940 --- [cluster-ClusterId{value='6020637101f19a190254a4b9', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=4064800}
+2021-02-07 17:02:27.169  INFO 31940 --- [nioEventLoopGroup-3-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:47}] to localhost:27017
+2021-02-07 17:03:49.582  INFO 34836 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Starting DemoApplication on LAPTOP-ON35FR2U with PID 34836 (C:\Users\smill\home\workspaces\heartbeat\demo\target\classes started by smill in C:\Users\smill\home\workspaces\heartbeat\heartbeat-parent)
+2021-02-07 17:03:49.584 DEBUG 34836 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2021-02-07 17:03:49.585  INFO 34836 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : No active profile set, falling back to default profiles: default
+2021-02-07 17:03:49.625  INFO 34836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-07 17:03:49.626  INFO 34836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-07 17:03:50.451  INFO 34836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-02-07 17:03:50.474  INFO 34836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18ms. Found 0 Reactive MongoDB repository interfaces.
+2021-02-07 17:03:50.788  INFO 34836 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-02-07 17:03:50.797  INFO 34836 --- [restartedMain] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-02-07 17:03:50.797  INFO 34836 --- [restartedMain] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-02-07 17:03:50.798  INFO 34836 --- [restartedMain] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-02-07 17:03:50.799  INFO 34836 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactory' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-02-07 17:03:50.799  INFO 34836 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+2021-02-07 17:03:50.799  INFO 34836 --- [restartedMain] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-02-07 17:03:50.799  INFO 34836 --- [restartedMain] org.quartz.core.QuartzScheduler          : JobFactory set to: com.sam.scheduler.demo.config.SchedulerConfiguration$AutowireCapableBeanJobFactory@7d59efeb
+2021-02-07 17:03:50.816  INFO 34836 --- [restartedMain] org.quartz.core.QuartzScheduler          : Scheduler schedulerFactory_$_NON_CLUSTERED started.
+2021-02-07 17:03:50.850  INFO 34836 --- [restartedMain] c.sam.webutil.heartbeat.HeartbeatClient  : POST to: http://localhost:8080/heartbeat/app/init
+2021-02-07 17:03:50.941 ERROR 34836 --- [restartedMain] com.sam.webutil.heartbeat.Registration   : init: null
+2021-02-07 17:03:51.299  INFO 34836 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-02-07 17:03:51.605  INFO 34836 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-07 17:03:51.863  WARN 34836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-02-07 17:03:51.928  INFO 34836 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8083
+2021-02-07 17:03:51.950  INFO 34836 --- [restartedMain] com.sam.scheduler.demo.DemoApplication   : Started DemoApplication in 2.694 seconds (JVM running for 4.429)
+2021-02-07 17:03:51.967  INFO 34836 --- [cluster-ClusterId{value='602063c7d585d1441b4f39fc', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:48}] to localhost:27017
+2021-02-07 17:03:51.973  INFO 34836 --- [cluster-ClusterId{value='602063c7d585d1441b4f39fc', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3838900}
+2021-02-07 17:03:52.442  INFO 34836 --- [nioEventLoopGroup-3-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:49}] to localhost:27017
